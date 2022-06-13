@@ -1,0 +1,39 @@
+.List{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+    width: 700px;
+    
+    .Item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: red;
+        padding: 20px;
+        width: 700px;
+        border-radius: 20px;
+        color: #fff;
+        font-size: 25px;
+        margin-bottom: 10px
+    }
+
+    .edit{
+        margin-right: 20px;
+        border: none;
+        background-color: green;
+        border-radius: 5px;
+        color: #fff;
+        padding: 10px;
+    }
+    
+    .del{
+        margin-right: 20px;
+        border: none;
+        background-color: pink;
+        border-radius: 5px;
+        color: black;
+        padding: 10px;
+
+    }
+}
